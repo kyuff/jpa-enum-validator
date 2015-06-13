@@ -24,6 +24,12 @@
             <artifactId>accounts-dao</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>dk.kyuff</groupId>
+            <artifactId>enum-validator</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 

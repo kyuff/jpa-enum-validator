@@ -1,0 +1,6 @@
+{
+  "enumType" : "dk.kyuff.poc.accounts.AccountType",
+  "enumFieldsInRelease" : [ "ORDINARY", "VIP", "EMPLOYEE", "FOUNDER" ],
+  "classes" : [ "dk.kyuff.poc.accounts.AccountEntity" ],
+  "changes" : [ ]
+}

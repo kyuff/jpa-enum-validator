@@ -1,5 +1,6 @@
 package dk.kyuff.poc;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class LastRelease {
@@ -25,14 +26,21 @@ public class LastRelease {
         }
     }
 
+    public LastRelease() {
+    }
+
+    public LastRelease(Class<Enum<?>> enumType) {
+        this.enumType = enumType;
+    }
+
     // Java Type of Enum
     private Class<Enum<?>> enumType;
 
-    private List<String> enumFieldsInRelease;
+    private List<String> enumFieldsInRelease = new ArrayList<>();
 
-    private List<Class<?>> classes;
+    private List<Class<?>> classes = new ArrayList<>();
 
-    private List<Change> changes;
+    private List<Change> changes = new ArrayList<>();
 
     public Class<Enum<?>> getEnumType() {
         return enumType;

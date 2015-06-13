@@ -1,0 +1,6 @@
+{
+  "enumType" : "dk.kyuff.poc.shared.Status",
+  "enumFieldsInRelease" : [ "CREATED", "VALIDATED", "DELETED", "CREATED", "VALIDATED", "DELETED" ],
+  "classes" : [ "dk.kyuff.poc.accounts.AccountEntity", "dk.kyuff.poc.users.UserEntity" ],
+  "changes" : [ ]
+}

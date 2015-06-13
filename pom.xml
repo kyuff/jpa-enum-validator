@@ -7,6 +7,13 @@
     <groupId>dk.kyuff</groupId>
     <artifactId>jpa-enum-validator</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>users-dao</module>
+        <module>accounts-dao</module>
+        <module>app</module>
+    </modules>
+
+    <packaging>pom</packaging>
 
     <dependencies>
     </dependencies>

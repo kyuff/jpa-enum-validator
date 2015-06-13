@@ -12,6 +12,7 @@
         <module>accounts-dao</module>
         <module>app</module>
         <module>shared</module>
+        <module>enum-validator</module>
     </modules>
 
     <packaging>pom</packaging>

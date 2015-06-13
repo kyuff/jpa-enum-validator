@@ -2,8 +2,8 @@ package dk.kyuff.poc.shared;
 
 import javax.persistence.*;
 
-@Entity
-public class AbstractEntity {
+@MappedSuperclass
+public abstract class AbstractEntity {
 
     @Id
     @GeneratedValue

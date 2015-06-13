@@ -1,0 +1,22 @@
+{
+  "enumType": "dk.kyuff.poc.model.Enum1",
+  "enumFieldsInRelease": [
+    "A",
+    "B",
+    "C"
+  ],
+  "classes": [
+    "dk.kyuff.poc.model.Entity1",
+    "dk.kyuff.poc.model.Entity2"
+  ],
+  "changes": [
+    {
+      "field": "D",
+      "comment": "fixed in commit #5, moved to C"
+    },
+    {
+      "field": "A1",
+      "comment": "fixed in commit #41, renamed to A"
+    }
+  ]
+}

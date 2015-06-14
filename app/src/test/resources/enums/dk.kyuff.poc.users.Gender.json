@@ -3,4 +3,5 @@
   "enumFieldsInRelease" : [ "MALE", "FEMALE" ],
   "classes" : [ "dk.kyuff.poc.users.UserEntity" ],
   "changes" : [ ]
+
 }

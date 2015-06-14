@@ -1,5 +1,9 @@
 package dk.kyuff.poc;
 
+import javax.validation.constraints.AssertFalse;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,10 +38,15 @@ public class LastRelease {
     }
 
     // Java Type of Enum
+    @NotNull
     private Class<Enum<?>> enumType;
 
+    @NotNull
+    @Size(min = 1)
     private List<String> enumFieldsInRelease = new ArrayList<>();
 
+    @NotNull
+    @Size(min = 1)
     private List<Class<?>> classes = new ArrayList<>();
 
     private List<Change> changes = new ArrayList<>();
